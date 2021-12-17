@@ -1,0 +1,58 @@
+* 
+/* tag * pega todos os elementos existentes*/ {
+  /*isso reseta o documento todas as propriedades do navegador ja definidas sao removidas*/
+  /*padding,color,margin etc sao propriedades
+  margin: 0; /*margem*/
+  padding: 0; /**/
+}
+
+.menu {
+  width: 900px; /*largura*/
+  background-color: crimson; /*cor de fundo*/
+  /*MARGEM ESPAÇAMENTO EXTERNO*/
+  margin: 0 auto; /* margin  é o espaçamento externo do elemento/ centraliza*/
+  margin-left: 10px; /*margen esquerda*/
+  margin-right: 10px; /*margen direira*/
+  margin-top: 10px; /*margen acima*/
+  margin-bottom: 10px; /*margen baixo*/
+  margin: 10px; /*margin resume todas as margem acima*/
+  margin: 10px 50px; /*margin 10px cima baixo 50px direita e esquerda*/
+  margin: 10px auto; /*margin automatico centraliza*/
+  display: block; /*e o padrao de uma div/ div sao blocos*/
+
+  /*PADDING ESPAÇAMENTO INTERNO*/
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center; /* alinhar texto no centro*/
+}
+/* essa tag div com a class sobrepoe a width: 900px; por ser mais especifica / todas as tag div que tem a class menu vao ser afetada */
+/* quando as especificaçoes sao iguai a ultima e a que vai prevalecer /css se le de baixo para cima*/
+div.menu {
+  width: 400px;
+}
+div.menu {
+  width: 300px;
+}
+
+.menu > a {
+  /*pegar o link*/
+  color: wheat; /*cor do link*/
+  font-size: 18px; /*tamanho da fonte*/
+  margin: 0 10px; /* 0 margen acima e abaixo 10 margem direita e esquerda entre eles*/
+  text-decoration: none; /*sem decoraçao underline que e a padrao*/
+
+  border-left: 1px; /*borda esquerda*/
+  border-right: 1px; /*borda direita*/
+  border-top: 1px; /*borda cima*/
+  border-bottom: 1px; /*borda baixo*/
+
+  border-width: 4px; /*borda largura*/
+  border-color: yellowgreen; /*borda cor*/
+  border-style: solid;
+  /*codigo acima resumido abaixo/ msm cois*/
+  border: 3px solid green;
+
+  padding: 8px; /* aumetar o espaçamento entre a borda e o texto*/
+}

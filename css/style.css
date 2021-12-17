@@ -1,0 +1,25 @@
+body{
+/*cor de fundo*/
+    background-color: white;
+}
+/*# para chamar o id*/
+/*id div na tag h1  /dentro da div com id div1 / modifica todos h1 dentro da div1*/
+#div1 h1{
+color: tomato;
+
+}
+
+/*quando tiver diretamente dentro*/
+/*ataca,modifica o h1 apenas se ele tiver dentro da div2 / div filha*/
+#div2 > h1{
+    color: blueviolet;
+    
+    }
+/*. para chamar a class*/
+.div2  h1{
+    background-color: chartreuse;
+    
+    }
+
+    /* so se atribui um id em uma tag se ele nao se repetir*/
+    /* se usa class para repetir*/

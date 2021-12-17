@@ -1,0 +1,42 @@
+/*resetando */
+*{
+margin: 0;
+padding: 0
+}
+
+div.artigo{
+
+  
+}
+
+  /*ou*/
+.artigo{
+    background-color: lightblue;
+    width: 1280px;/*largura*/
+    margin:40px auto; /*40 cima e baixo automatico esquerda e direita*/
+    text-align: center;
+    padding: 40px;/*espaçamento interno para baixo , cima,squerda direita.
+
+}
+
+
+.artigo h1{
+color: indianred; /*cor da fonte*/
+font-size: 55px; /*1em = 1 em unidade 100% 2 em = 200%/-*/
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*tipo da fonte forma */
+font-style: italic; /*stilo*/
+font-weight: normal; /*  o padrao normal  do h1 e negrito*/
+/*font-variant: small-caps;/* letra maiscula fica negrito e as minusculas mairores*/
+
+}
+.artigo p{
+color:  #b4b4b4;
+font-size: 17px;
+font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+margin-top: 15px;
+line-height: 50px; /*muda o espaço entre cada quebra de linha*/
+text-align: left;
+
+}
