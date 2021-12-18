@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+  }
+  
+  .centro {
+    box-sizing: content-box;
+  
+    width: 1280px;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    box-sizing: border-box;
+    
+  }
+  .artigo {
+      box-sizing: border-box;
+     /* border:5px solid springgreen;*/
+    /* border:5px solid rgba(255,255,255, 0);/*255 e a cor 0 e a tranparencia 1 e visivel*/
+    border-style: dotted; /*todas as bordas*/
+    /* border-left-style:dotted ; /*somente a borda esquerda*/
+   display: inline-block;/*mesma linha o padra dessa propriedade ja vem com 4px por isso uso margin-right: -4px; para remover o padrao*/
+  /* display: block;/*e o padrao da div independente do tamnho vai para a proxima linha*/
+   width: 640px;
+   margin-right: -4px;/*removendo o padrao inline-block*/
+   margin-top: 30px;
+   vertical-align: top;/*alinhamento na vertical*/
+   outline: 53px;/*e msm coisa da borda porem sempre cresce para fora*/
+   
+  }
+  

@@ -1,0 +1,71 @@
+html,body{ height: 100%;}/*a largura por padra e 100% a altura nao entao quado se quer usar % temos que definir que o html e o body comece com 100% os outros elementos herdem isso*/
+
+.lista{
+
+    list-style-position: inside; /*propriedade para que fique dentro da box no body*/
+    list-style-type: circle; /*e o que aparede ex bolinha,borda ,numero etc*/
+margin-left: 20px;
+}
+.lista li{ /*atacando a li dentro de lista*/
+color: blueviolet;
+font-size: 14px;
+margin-top: 10px;
+}
+
+.item3{
+    color: chartreuse; /*nao funciona pois o  .lista lie mais especifico e ataca diretamente a li da classe item tres*/
+}
+
+/*entao uase assim*/
+.lista .item3{
+
+    color: darkred;
+    font-weight: bold;
+}
+
+/*uma class é mais especifica que uma tag*/
+
+.lista,.lista2{/*ataca mais de uma lista*/
+
+    list-style-position: inside; /*propriedade para que fique dentro da box no body*/
+    list-style-type: circle; /*e o que aparede ex bolinha,borda ,numero etc*/
+margin-left: 20px;
+}
+
+.lista li, .lista2 li{ /*ataca mais de uma lista*/
+    color: blueviolet;
+    font-size: 14px;
+    margin-top: 10px;
+    }
+
+
+ ol{
+
+list-style-position: inside;
+
+ }
+
+ ol > li {/*atacar apenas as li que estao diretamente no ol*/
+
+color: mediumvioletred;
+ }
+
+.um{
+width: 500px;
+height: 500px;
+background: navy;
+}
+
+.um > .dois{
+
+    width: 300px;
+    height: 300px;
+    background: olivedrab;
+}
+
+.um > .tres{
+
+    width: 100px;
+    height: 100px;
+    background: red;
+}

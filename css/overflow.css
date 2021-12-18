@@ -1,0 +1,19 @@
+  
+  html, body {
+    height: 100%;
+  }
+
+  .box{
+
+width: 300px;
+margin: 0 auto;
+height: 200px;
+background-color: grey;
+display: none; /*esconde*/
+/*overflow:hidden ;/*ocuta tudo q passe da altura de 200px*/
+/*overflow: auto; /*scrol quando ultrapassar a altura por padrao e sempre visivel
+overflow-x: auto;/* mexe so na horizontal*/
+  }
+  .box p {
+      width: 500px;
+  }

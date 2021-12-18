@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0; /*reset*/
+}
+
+html,
+body {
+  /*atacando o body */
+  height: 100%;
+}
+
+
+a[href] { /*quando nao se usa class e id podese pegar o atriburo*//*tag a pega todos os link que tem o atributo href*/
+      background-color: lawngreen;
+}

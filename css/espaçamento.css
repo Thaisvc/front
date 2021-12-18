@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.centro {
+  width: 1280px;
+  margin: 0 auto;
+  background-color: darkseagreen;
+
+  /* padding: 30px; /*esse 30 px aumenta os 1280 +30*/
+  /* padding-left: 30px;*/
+    box-sizing: border-box;/* o espaçamento fica dntro da caixa*/
+    box-sizing: content-box;/*padrao aumenta do lados*/
+    padding: 30px 30px  30px  30px  ;
+}
+.artigo {
+  /*margin-left: 30px;*/
+  /*width: 600px;
+ /* margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 30px; /*nao muda pois a margem definida antes ja tem uma margem automatica
+  margin-left: 30px;
+  margin-top: 30px;
+margin-bottom: 30px;
+
+/*simplificando
+margin: 50px 30px 50px 30px;/*cima,direita,baixo esquerda
+margin: 40px 30px;/* 40 cima baixo,30px esquerda direita*/
+
+margin-top: 40px;
+}

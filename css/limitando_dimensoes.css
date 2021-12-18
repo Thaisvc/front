@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    min-width: 1280px; /*largura minima*/
+    background: darkseagreen;
+}
+
+.article{
+    margin: 0 auto; /*centraliza*/
+    width:1280px;
+    height: 10px;
+    max-height: 20%;
+    min-height: 50%; /*minimo e prioridade , depois o maximo e depois a altura*/
+    background: darkred;
+}

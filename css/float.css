@@ -1,0 +1,28 @@
+
+  
+  html, body {
+    height: 100%;
+  }
+.pai{
+width: 1280px;
+padding: 20px 0;
+margin: 0 auto;
+background: brown;
+
+}
+.child{
+/*display: inline-block;
+margin-right: -4;/*para corrigir o posicionamento do inline block*/
+box-sizing: border-box;
+    width: 640px;
+    height: 300px;
+    background: chartreuse;
+    float: right; /*left;/*se nao quser usar o inlene block float e outra opçao ele nao tem espaçamento a mais nao e necessario usar o -4 para corrigir*/
+    /*float quando usa o elemento pai ela ignora os elementos filhos sao como se fossem vazios entao se cria uma div sega com style="clear: both; */
+    /*float por padrao e none*/
+    border: 3px solid black;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px 0;
+    color: cadetblue;
+}

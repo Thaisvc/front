@@ -1,0 +1,40 @@
+
+/* para que a altura height 100% funcione em artigo temos que pre definila / deve se usar em imagem quando se sabe o tamanho ,usase em dimensoes ja  predefinido */
+
+html,body{
+/*chama o html e o body e dizer que ambas as tags oculpe 100% /*/
+   /* height: 100%;*/
+}
+
+.artigo {
+  /* width: auto;/*largura /largura do navegador*/
+
+  /*para deixar o conteudo responsivo /site que se adpta a qualauer tipo de tela celular note etc/ usas-se % px sao propriedades pre definidos independente da tela usada o conteudo vai ser o msm */
+  /*height: auto; /*altura*/
+
+
+
+ /* width: 80%;*/
+ width: 4%;
+  height: 100%;
+
+  background-color: lightblue;
+  text-align: center;
+ /* max-width: 300px;/* lagura maxima/ msmo definisdo o 80% se a tela for muito grande pode se limitala ao usar max width*/
+}
+
+.artigo h1 {
+  color: indianred; /*cor da fonte*/
+  font-size: 55px; /*1em = 1 em unidade 100% 2 em = 200%/-*/
+  font-style: italic; /*stilo*/
+  font-weight: normal; /*  o padrao normal  do h1 e negrito*/
+}
+.artigo p {
+  color: #b4b4b4;
+  text-align: left;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 50px; /*muda o espaço entre cada quebra de linha*/
+  margin-top: 15px;
+}

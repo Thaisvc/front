@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.tipo1{
+color: red;
+
+
+}
+.link{
+font-size: 30px;
+
+}
+.tipo2{
+    font-size: 40px;
+}
+a.tipo2{
+
+    font-size: 50px;
+}
