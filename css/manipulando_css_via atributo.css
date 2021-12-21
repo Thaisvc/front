@@ -10,6 +10,22 @@ body {
 }
 
 
-a[href] { /*quando nao se usa class e id podese pegar o atriburo*//*tag a pega todos os link que tem o atributo href*/
+a[href] { /*quando nao se usa class e id podese pegar o atriburo*//*tag a pega todos os link que tem o atributo href
       background-color: lawngreen;
+     
+}
+
+a[href="https://pt.wikipedia.org/wiki/Tomb_Raider"] { /*usase = e o link para acessar um valor especifico
+  background-color: lawngreen;
+}
+
+a[attr~="google"] { /*quando se usa o ~ é = atacar a tag a que tem o atributo attr e procure entre as palavras com espaço a palavra google
+  background-color: red;
+   
+}
+
+
+a[attr*="google"] { /*quando se usa o * é = atacar a tag a que tem o atributo attr e procure equalquer lugar a palavra google
+  background-color: red;
+   */
 }

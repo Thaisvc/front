@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+/*
+table {
+  width: 900px;
+  border-collapse: collapse; /* se tem borda colidindo  deixa eles em 1 so
+  margin: 0 auto;
+}
+
+table tr td {
+  height: 300px;
+  border: solid 1px black;
+  vertical-align: top; /*as letras vao para o topo/ midlle é meio o bottom q e baixo
+  background-color: cadetblue;
+}
+*/
+
+.menu-fixo {
+ /* position: fixed; /*fixa- quando se usa ela 4 prorpiedades ficam disponivel ;left,top,bottom,right*/
+  /*left: 50px;
+  top: 330px;*/
+  /*position: absolute;/*segue o fluxo*/
+  position: relative;/*relativa com a popsiçao atual do nosso elemento*/
+  bottom: 40px;/*por padrao e 0*/
+position: static;/*e o padrao nao tem o left,top right e bottom*/
+  right: 40px;/*por padra e 0 left tendo ent a preferencia*/
+  width: 300px;
+  height: 200px;
+  background: crimson;
+}
+
+.box {
+  width: 100%;
+  height: 1400px;
+  background: darkgreen;
+}
+
+.box p{
+    width: 400px;
+}
