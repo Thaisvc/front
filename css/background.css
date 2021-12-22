@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+}
+
+.bg{
+    /*centraliza*/
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+
+    /*cor d fundo e imagem*/
+    background-color: darkgreen;
+    background-image: url('../img/baixados.jpg');/*add imagem*/
+   /* background-size: 100% auto;/* repeita o aspecto heigth 100de largurae automatico na autura*//*aqui ele repet o background*/
+    background-repeat: no-repeat ; /*tira a repetiçao*/
+   /* background-repeat: repeat-x repeat-y; /*fazendo a repetiçao no eixo x e y*/
+  /*  background-size: cover;/*ele cobre com base no tamanho de width ,v definido acima porem respeitando o height*/
+    background-position:center ;/*posicionando no centro*/
+   /* background-position: left top;/*começar do lado esquerdo e de cima e o padra*/
+    /*background-position: right top;/*começar do lado dirito e de cima podemos usar valor em px,% etc*/
+    background-size: contain;/*deixa a imagem responsivel do tamanho da box definida width: 500px;  height: 500px;*/
+  
+    
+}
